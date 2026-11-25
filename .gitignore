@@ -1,0 +1,28 @@
+# Dependencies 
+node_modules/
+client/node_modules/
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+client/.env
+client/.env.*
+!client/.env.example
+
+# Production builds
+client/dist/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Database backups 
+database-backup*/
+
+#Unrelated files and old projects materials
+.history
+/src/
+For Assignment 3/
+For Assignment 3.zip
